@@ -1,0 +1,17 @@
+[build-system]
+requires = ["uv_build >= 0.9.11, <0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "exp"
+version = "0.0.1"
+authors = [
+  { name="Guilherme Henrique", email="guihss.cs@gmail.com" },
+]
+description = "Experiment tracking package."
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/guihcs/exp"
+Issues = "https://github.com/guihcs/exp/issues"
